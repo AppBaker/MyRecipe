@@ -64,7 +64,7 @@ class CategoryTableViewController: SwipeTableViewController {
         
         cell.imageCustomization()
         cell.countLabel.text = "100"
-        cell.nameLabel.text = "Выпечка"
+        cell.nameLabel.text = "Первое"
         
         if indexPath.row % 2 != 0 {
             cell.foodImageView.image = UIImage(named: "NewImage")
